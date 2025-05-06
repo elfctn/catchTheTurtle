@@ -1,1 +1,3 @@
-[▶️ Videoyu İzle](sample.mov)
+## Demo
+
+![Demo](sample_preview.gif)

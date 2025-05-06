@@ -45,3 +45,17 @@ def make_turtle(x, y):
     t.color('green')
     t.goto(x * grid_size,y * grid_size)
     turtle_list.append(t)
+
+
+x_coordinates = [-20,-10,0,10,20]
+y_coordinates = [20,10,0,-10,-20]
+
+def setup_turtles():
+    for x in x_coordinates:
+        for y in y_coordinates:
+            make_turtle(x, y)
+
+
+def hide_turtles():
+    for t in turtle_list:
+        t.hideturtle()
